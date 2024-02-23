@@ -1,0 +1,71 @@
+/* Акцентний колір #2196F3 */
+/* Основний колір #757575 */
+/* Вторинний колір #212121 */
+/* Білий #FFFFFF */
+/* Footer rgba(255, 255, 255, 0.6) */
+
+/* Колір фону  #FFFFFF*/
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --bck-color: #2F303A;
+}
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto;
+}
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.logo span {
+    color: var(--accent-color);
+}
+.logo {
+    color: var(--title-text-color);
+    font-family: Raleway;
+}
+.list {
+    list-style: none;
+}
+.nav-list .link {
+    color: var(--title-text-color);
+}
+.nav-list .link:hover, .nav-list .link:focus {
+    color: var(--accent-color);
+}
+.link.curent {
+    color: var(--accent-color);
+}
+.info-link {
+    color: var(--primary-text-color);
+}
+.info-link:hover, .info-link:focus{
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+    color: var(--primary-white-color);
+    background-color: var(--bck-color);
+}
+
+
+.section-title {
+    color: var(--title-text-color);
+}
+.names-title {
+    color: var(--title-text-color);
+}
+.address-title {
+    color: var(--primary-white-color);
+    background-color: var(--bck-color);
+}
+.footer-address {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: var(--bck-color);
+}
